@@ -43,8 +43,5 @@ public class Loader {
                 animals.add(new Frog());
                 break;
         }
-
     }
-
-
 }
