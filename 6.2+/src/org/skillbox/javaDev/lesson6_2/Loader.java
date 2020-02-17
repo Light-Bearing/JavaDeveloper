@@ -7,6 +7,6 @@ public class Loader {
         Bird hen = new Hen();
         Bird duck = new Duck();
         Bird sparrow = new Sparrow();
-        Bird camelBird = new Sparrow();
+        Bird camelBird = new CamelBird();
     }
 }
