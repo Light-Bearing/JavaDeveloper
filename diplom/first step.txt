@@ -1,0 +1,12 @@
+работа телеграма
+1) предложение ввода номера телефона
+2) ввод номера телефона
+3) запрос кода подтверждения(посылка смс на номер)
+4) вход
+
+api_id=718505
+App api_hash=432dbe82e512be4a98b3cb8a835179c6
+App title=JavaTelegramLB
+Short name=JavaTLB
+Test configuration=149.154.167.40:443
+Production configuration=149.154.167.50:443
