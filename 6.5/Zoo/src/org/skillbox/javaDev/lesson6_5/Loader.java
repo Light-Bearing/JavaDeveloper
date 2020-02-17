@@ -18,7 +18,8 @@ public class Loader {
         for (int i = 0; i < countAnumal; i++) {
             addAnimals(animals);
         }
-        Collections.sort(animals, new AnimalsComporator());
+        animals.sort(new AnimalsComporator());
+//        Collections.sort(animals, new AnimalsComporator());
         for (Vertebrata animal : animals) {
             animal.voice();
         }
