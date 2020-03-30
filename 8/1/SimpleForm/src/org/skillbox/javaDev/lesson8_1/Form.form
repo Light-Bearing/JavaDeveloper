@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.skillbox.javaDev.lesson8_1.Form">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="914" height="400"/>
+    </constraints>
+    <properties>
+      <maximumSize width="400" height="300"/>
+      <minimumSize width="400" height="300"/>
+      <opaque value="false"/>
+      <preferredSize width="400" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="bb990" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="9c2d4" class="javax.swing.JLabel" binding="surname">
+            <constraints/>
+            <properties>
+              <text value="Фамилия:                "/>
+            </properties>
+          </component>
+          <component id="b88b0" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="a3b70" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3e95e" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Имя:                       "/>
+            </properties>
+          </component>
+          <component id="98de7" class="javax.swing.JTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="96ab1" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="16ef0" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Отчество:               "/>
+            </properties>
+          </component>
+          <component id="8ff96" class="javax.swing.JTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2bf6d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="ca9a9" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Дата рождения:      "/>
+            </properties>
+          </component>
+          <component id="32848" class="javax.swing.JTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="f60c5" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="8a9" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <text value="Город проживания:"/>
+            </properties>
+          </component>
+          <component id="67741" class="javax.swing.JTextField" default-binding="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="94e19" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <opaque value="true"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="3e439" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <label value="Нажми на меня!"/>
+              <text value="Нажми на меня!"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
