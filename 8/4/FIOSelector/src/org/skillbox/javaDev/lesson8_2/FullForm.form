@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.skillbox.javaDev.lesson8_2.FullForm">
+  <grid id="27dc6" binding="rootPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="1625" height="400"/>
+    </constraints>
+    <properties>
+      <maximumSize width="400" height="300"/>
+      <minimumSize width="400" height="300"/>
+      <preferredSize width="400" height="300"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="b0446" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="eb579" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <labelFor value="aadfb"/>
+              <maximumSize width="128" height="16"/>
+              <minimumSize width="128" height="16"/>
+              <preferredSize width="128" height="16"/>
+              <text value="Фамилия:"/>
+            </properties>
+          </component>
+          <component id="aadfb" class="javax.swing.JTextField" binding="textSurname">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="80b4c" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a0a01" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <labelFor value="7b65a"/>
+              <maximumSize width="128" height="16"/>
+              <minimumSize width="128" height="16"/>
+              <preferredSize width="128" height="16"/>
+              <text value="Имя:"/>
+            </properties>
+          </component>
+          <component id="7b65a" class="javax.swing.JTextField" binding="textName">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="2c75f" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="de1b6" class="javax.swing.JLabel">
+            <constraints/>
+            <properties>
+              <labelFor value="ad3e3"/>
+              <maximumSize width="128" height="16"/>
+              <minimumSize width="128" height="16"/>
+              <preferredSize width="128" height="16"/>
+              <text value="Отчество:"/>
+            </properties>
+          </component>
+          <component id="ad3e3" class="javax.swing.JTextField" binding="textPatronymic">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="30"/>
+              <minimumSize width="100" height="30"/>
+              <preferredSize width="100" height="30"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3dfeb" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <maximumSize width="400" height="40"/>
+          <minimumSize width="400" height="40"/>
+          <opaque value="true"/>
+          <preferredSize width="400" height="40"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="78739" class="javax.swing.JButton" binding="button">
+            <constraints/>
+            <properties>
+              <actionCommand value=""/>
+              <contentAreaFilled value="false"/>
+              <label value="Переключиться"/>
+              <text value="Переключиться"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
