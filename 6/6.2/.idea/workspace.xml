@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc80c865-e846-4e8f-8ca8-097e8cb52d0b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadCamera/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadCamera/RoadCamera.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadCamera/src/RoadCamera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadController/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadController/RoadController.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadController/src/RoadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadController/src/core/Camera.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadController/src/core/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadController/src/core/Police.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../4/4.2/RoadController/src/core/WeightMeter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.1/RainbowArray/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.1/RainbowArray/RainbowArray.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.1/RainbowArray/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.2/SerialPassport.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.2/SerialPassport/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.2/SerialPassport/SerialPassport.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.2/SerialPassport/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.2/SerialPassport/src/org/skillbox/lesson5/Passport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.3/ChessBoard/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.3/ChessBoard/ChessBoard.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.2.3/ChessBoard/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.1/GosNumberArray/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.1/GosNumberArray/GosNumberArray.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.1/GosNumberArray/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.2/AircraftParking/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.2/AircraftParking/AircraftParking.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.2/AircraftParking/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.3/telegramExperements/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.3/telegramExperements/lib/Telegram API bridge v2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.3/telegramExperements/lib/Telegram.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.3/telegramExperements/src/org/skillbox/lesson3/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.3.3/telegramExperements/telegramExperements.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.4/MedicationList/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.4/MedicationList/MedicationList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.4/MedicationList/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.5.1/OwnerCarNum/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.5.1/OwnerCarNum/OwnerCarNum.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.5.1/OwnerCarNum/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.5.2/Notebook/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.5.2/Notebook/Notebook.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.5.2/Notebook/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.6/differenceMap/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.6/differenceMap/differenceMap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/5.6/differenceMap/src/org/skillbox/lesson5/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/additionalTaskPasport/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/additionalTaskPasport/additionalTaskPasport.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../5/5+/additionalTaskPasport/src/com/LB/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XwcH49QB3ObzAwSIJnYtFbWqKK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="org.skillbox.javaDev.lesson6_2.Loader" />
+      <module name="6.2+" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc80c865-e846-4e8f-8ca8-097e8cb52d0b" name="Default Changelist" comment="" />
+      <created>1581960506474</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1581960506474</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Refactor">
+      <created>1581961046091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1581961046091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Урок 2. Наследование классов&#10;&#10;Создать воробья, страуса, а также два промежуточных класса для летающих и нелетающих птиц, которые должны расширять класс Bird. Отнаследуйте от этих промежуточных классов классы всех остальных птиц, которые есть в проекте.">
+      <created>1581961539080</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581961539080</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Refactor" />
+    <MESSAGE value="Урок 2. Наследование классов&#10;&#10;Создать воробья, страуса, а также два промежуточных класса для летающих и нелетающих птиц, которые должны расширять класс Bird. Отнаследуйте от этих промежуточных классов классы всех остальных птиц, которые есть в проекте." />
+    <option name="LAST_COMMIT_MESSAGE" value="Урок 2. Наследование классов&#10;&#10;Создать воробья, страуса, а также два промежуточных класса для летающих и нелетающих птиц, которые должны расширять класс Bird. Отнаследуйте от этих промежуточных классов классы всех остальных птиц, которые есть в проекте." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog" timestamp="1585559613391">
+      <screen x="0" y="23" width="1440" height="826" />
+    </state>
+    <state x="397" y="268" key="com.intellij.ide.util.TipDialog/0.23.1440.826@0.23.1440.826" timestamp="1585559613391" />
+  </component>
+</project>
