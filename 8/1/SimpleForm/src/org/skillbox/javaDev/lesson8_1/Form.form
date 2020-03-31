@@ -24,7 +24,10 @@
           <component id="9c2d4" class="javax.swing.JLabel" binding="surname">
             <constraints/>
             <properties>
-              <text value="Фамилия:                "/>
+              <maximumSize width="128" height="16"/>
+              <minimumSize width="128" height="16"/>
+              <preferredSize width="128" height="16"/>
+              <text value="Фамилия:"/>
             </properties>
           </component>
           <component id="b88b0" class="javax.swing.JTextField" binding="textField1" default-binding="true">
@@ -49,7 +52,10 @@
           <component id="3e95e" class="javax.swing.JLabel">
             <constraints/>
             <properties>
-              <text value="Имя:                       "/>
+              <maximumSize width="128" height="16"/>
+              <minimumSize width="128" height="16"/>
+              <preferredSize width="128" height="16"/>
+              <text value="Имя:"/>
             </properties>
           </component>
           <component id="98de7" class="javax.swing.JTextField" default-binding="true">
@@ -74,7 +80,10 @@
           <component id="16ef0" class="javax.swing.JLabel">
             <constraints/>
             <properties>
-              <text value="Отчество:               "/>
+              <maximumSize width="128" height="16"/>
+              <minimumSize width="128" height="16"/>
+              <preferredSize width="128" height="16"/>
+              <text value="Отчество:"/>
             </properties>
           </component>
           <component id="8ff96" class="javax.swing.JTextField" default-binding="true">
@@ -99,7 +108,11 @@
           <component id="ca9a9" class="javax.swing.JLabel">
             <constraints/>
             <properties>
-              <text value="Дата рождения:      "/>
+              <inheritsPopupMenu value="false"/>
+              <maximumSize width="128" height="16"/>
+              <minimumSize width="128" height="16"/>
+              <preferredSize width="128" height="16"/>
+              <text value="Дата рождения:"/>
             </properties>
           </component>
           <component id="32848" class="javax.swing.JTextField" default-binding="true">
