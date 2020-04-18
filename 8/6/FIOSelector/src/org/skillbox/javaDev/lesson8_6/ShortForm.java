@@ -1,4 +1,4 @@
-package org.skillbox.javaDev.lesson8_2;
+package org.skillbox.javaDev.lesson8_6;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -10,6 +10,12 @@ public class ShortForm {
     private JPanel rootPanel;
     private JTextField textFIO;
     private JButton button;
+
+    public JProgressBar getProgressBar1() {
+        return progressBar1;
+    }
+
+    private JProgressBar progressBar1;
     private FullForm form;
 
     public ShortForm() {
@@ -23,6 +29,9 @@ public class ShortForm {
             @Override
             public void keyReleased(KeyEvent e) {
                 super.keyReleased(e);
+                String[] array = textFIO.getText().split(" ");
+                int part = textFIO.getText().equals("") ? 0 : array.length;
+                progressBar1.setValue(100 * part / 3);
                 if (e.getKeyCode() == KeyEvent.VK_ENTER && e.isControlDown()) onClickButton();
             }
         });

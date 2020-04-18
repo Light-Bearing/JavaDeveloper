@@ -1,7 +1,6 @@
-package org.skillbox.javaDev.lesson8_2;
+package org.skillbox.javaDev.lesson8_4;
 
 import javax.swing.*;
-import javax.swing.event.CaretListener;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;

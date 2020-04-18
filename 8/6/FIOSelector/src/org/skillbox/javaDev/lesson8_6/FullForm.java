@@ -1,4 +1,4 @@
-package org.skillbox.javaDev.lesson8_2;
+package org.skillbox.javaDev.lesson8_6;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -45,8 +45,36 @@ public class FullForm {
     }
 
     private void onClickButton() {
+        if (textSurname.getText().trim().equals("")) {
+            JOptionPane.showMessageDialog(
+                    rootPanel,
+                    "Не заполнено поле Фамилия"
+            );
+            return;
+        }
+        if (textName.getText().trim().equals("")) {
+            JOptionPane.showMessageDialog(
+                    rootPanel,
+                    "Не заполнено поле Имя"
+            );
+            return;
+        }
+        if (textPatronymic.getText().trim().equals("")) {
+            int option = JOptionPane.showConfirmDialog(
+                    rootPanel,
+                    "Уверены ли вы в том, что не хотите установить отчество?",
+                    "Подтверждение действия",
+                    JOptionPane.YES_NO_OPTION);
+            if (option == JOptionPane.NO_OPTION) {
+                textPatronymic.requestFocus();
+                return;
+            }
+        }
         this.rootPanel.getParent().getParent().getParent().setVisible(false);
-        String fio = textSurname.getText() + " " + textName.getText() + " " +textPatronymic.getText();
+        String fio = textSurname.getText() + " " + textName.getText() + " " + textPatronymic.getText();
+        String[] array = fio.split(" ");
+        int part = fio.equals("") ? 0 : array.length;
+        shortForm.getProgressBar1().setValue(100 * part / 3);
         shortForm.getTextFIO().setText(fio);
         shortForm.getRootPanel().getParent().getParent().getParent().setVisible(true);
     }
@@ -59,14 +87,15 @@ public class FullForm {
         this.shortForm = shortFrame;
     }
 
-    public JTextField getTextSurname(){
+    public JTextField getTextSurname() {
         return textSurname;
     }
 
-    public  JTextField getTextName(){
+    public JTextField getTextName() {
         return textName;
     }
-    public JTextField getTextPatronymic(){
+
+    public JTextField getTextPatronymic() {
         return textPatronymic;
     }
 }

@@ -1,4 +1,4 @@
-package org.skillbox.javaDev.lesson8_2;
+package org.skillbox.javaDev.lesson8_6;
 
 import javax.swing.*;
 import java.awt.*;
