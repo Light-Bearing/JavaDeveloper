@@ -24,7 +24,6 @@ public class ShortForm {
             @Override
             public void keyReleased(KeyEvent e) {
                 super.keyReleased(e);
-                String[] array = textFIO.getText().split(" ");
                 fillProgressBae(textFIO.getText());
                 if (e.getKeyCode() == KeyEvent.VK_ENTER && e.isControlDown()) onClickButton();
             }
