@@ -25,8 +25,8 @@ public class Main {
 
         Dimension dimensionFullForm= new Dimension();
         Dimension dimensionShortForm= new Dimension();
-        dimensionFullForm.setSize(400,200);
-        dimensionShortForm.setSize(400,100);
+        dimensionFullForm.setSize(400,220);
+        dimensionShortForm.setSize(400,120);
         frame.setSize(dimensionFullForm);
         frame.setMaximumSize(dimensionFullForm);
         frame.setMinimumSize(dimensionFullForm);

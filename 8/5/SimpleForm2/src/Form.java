@@ -1,10 +1,10 @@
-package org.skillbox.javaDev.lesson8_1;
-
 import javax.swing.*;
 
 public class Form {
     private JPanel rootPanel;
-    private JButton Button;
+    private JLabel surname;
+    private JTextField textField1;
+    private JButton button1;
 
     public JPanel getRootPanel() {
         return rootPanel;
