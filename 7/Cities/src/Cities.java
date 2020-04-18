@@ -23,9 +23,15 @@ public class Cities {
                     System.out.println("This city is wrong! Try again!");
                     continue;
                 }
-                String nextCity = searchNextCity(city);
-                System.out.println("My city is: " + nextCity);
-                previousCity = nextCity;
+                String nextCity = null;
+                try {
+                    nextCity = searchNextCity(city);
+                    System.out.println("My city is: " + nextCity);
+                } catch (StringIndexOutOfBoundsException e) {
+                    continue;
+                } finally {
+                    previousCity = nextCity != null ? nextCity : "";
+                }
             } catch (NullPointerException e) {
                 previousCity = "";
             }
@@ -45,12 +51,8 @@ public class Cities {
     }
 
     private static boolean isNextCity(String currentCity, String nextCity) {
-        try {
-            int currentCityLastChar = currentCity.length() - 1;
-            return currentCity.charAt(currentCityLastChar) ==
-                    nextCity.toLowerCase().charAt(0);
-        } catch (StringIndexOutOfBoundsException e) {
-            return false;
-        }
+        int currentCityLastChar = currentCity.length() - 1;
+        return currentCity.charAt(currentCityLastChar) ==
+                nextCity.toLowerCase().charAt(0);
     }
 }
