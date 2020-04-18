@@ -10,11 +10,6 @@ public class ShortForm {
     private JPanel rootPanel;
     private JTextField textFIO;
     private JButton button;
-
-    public JProgressBar getProgressBar1() {
-        return progressBar1;
-    }
-
     private JProgressBar progressBar1;
     private FullForm form;
 
@@ -30,8 +25,7 @@ public class ShortForm {
             public void keyReleased(KeyEvent e) {
                 super.keyReleased(e);
                 String[] array = textFIO.getText().split(" ");
-                int part = textFIO.getText().equals("") ? 0 : array.length;
-                progressBar1.setValue(100 * part / 3);
+                fillProgressBae(textFIO.getText());
                 if (e.getKeyCode() == KeyEvent.VK_ENTER && e.isControlDown()) onClickButton();
             }
         });
@@ -62,5 +56,11 @@ public class ShortForm {
 
     public JTextField getTextFIO() {
         return textFIO;
+    }
+
+    public void  fillProgressBae(String text){
+        String[] array = text.split(" ");
+        int part = text.equals("") ? 0 : array.length;
+        progressBar1.setValue(100 * part / 3);
     }
 }

@@ -72,9 +72,7 @@ public class FullForm {
         }
         this.rootPanel.getParent().getParent().getParent().setVisible(false);
         String fio = textSurname.getText() + " " + textName.getText() + " " + textPatronymic.getText();
-        String[] array = fio.split(" ");
-        int part = fio.equals("") ? 0 : array.length;
-        shortForm.getProgressBar1().setValue(100 * part / 3);
+        shortForm.fillProgressBae(fio);
         shortForm.getTextFIO().setText(fio);
         shortForm.getRootPanel().getParent().getParent().getParent().setVisible(true);
     }
