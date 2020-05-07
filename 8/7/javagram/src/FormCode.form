@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FormCode">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1030" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="98a8" binding="panelMainCode" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints border-constraint="East"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="7c337" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+            <constraints/>
+            <properties>
+              <maximumSize width="100" height="100"/>
+              <minimumSize width="100" height="100"/>
+              <preferredSize width="100" height="100"/>
+            </properties>
+            <border type="none"/>
+            <children/>
+          </grid>
+          <component id="4c6d1" class="javax.swing.JLabel" binding="jLabelPhoneNumber">
+            <constraints/>
+            <properties>
+              <maximumSize width="200" height="40"/>
+              <minimumSize width="200" height="40"/>
+              <preferredSize width="200" height="40"/>
+              <text value="jLabelPhoneNumber"/>
+            </properties>
+          </component>
+          <component id="2762" class="javax.swing.JTextPane" binding="наДанныйНомерТелефонаTextPane" default-binding="true">
+            <constraints/>
+            <properties>
+              <editable value="false"/>
+              <maximumSize width="300" height="60"/>
+              <minimumSize width="300" height="60"/>
+              <opaque value="false"/>
+              <preferredSize width="300" height="60"/>
+              <text value="На данный номер телефона было отправлено&#10;SMX-сообщение с кодом подтверждения.&#10;Пожалуйста, введите этот код в поле ниже:"/>
+            </properties>
+          </component>
+          <component id="dee9b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints/>
+            <properties>
+              <maximumSize width="200" height="40"/>
+              <minimumSize width="200" height="40"/>
+              <opaque value="false"/>
+              <preferredSize width="200" height="40"/>
+            </properties>
+          </component>
+          <component id="fc4e4" class="javax.swing.JButton" binding="button1" default-binding="true">
+            <constraints/>
+            <properties>
+              <label value="Продолжить"/>
+              <maximumSize width="200" height="40"/>
+              <minimumSize width="200" height="40"/>
+              <preferredSize width="200" height="40"/>
+              <text value="Продолжить"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
