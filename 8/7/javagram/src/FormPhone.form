@@ -68,6 +68,7 @@
             <properties>
               <autoscrolls value="false"/>
               <editable value="false"/>
+              <margin top="3" left="3" bottom="3" right="3"/>
               <maximumSize width="200" height="40"/>
               <minimumSize width="200" height="40"/>
               <name value="jPane"/>
