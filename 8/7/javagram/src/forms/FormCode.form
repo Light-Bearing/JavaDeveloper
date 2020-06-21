@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FormCode">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="forms.FormCode">
   <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
       <xy x="20" y="20" width="1030" height="400"/>
@@ -51,7 +51,7 @@
               <preferredSize width="200" height="40"/>
             </properties>
           </component>
-          <component id="fc4e4" class="javax.swing.JButton" binding="button1" default-binding="true">
+          <component id="fc4e4" class="javax.swing.JButton" binding="buttonContinue">
             <constraints/>
             <properties>
               <label value="Продолжить"/>

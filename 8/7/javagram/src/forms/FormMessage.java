@@ -1,7 +1,9 @@
+package forms;
+
 import javax.swing.*;
 
-public class FormMain {
-    public JPanel getPanelMain() {
+public class FormMessage {
+    public JPanel getRootPanel() {
         return panelMain;
     }
 
