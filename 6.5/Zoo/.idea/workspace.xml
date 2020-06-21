@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdacbcc5-7f7a-4c1f-90e4-3db128b866b9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/org/skillbox/javaDev/lesson6_5/Loader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/skillbox/javaDev/lesson6_5/Loader.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1YIUeTYruikZVEuJU4XCVt8ZfGu" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Loader" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="org.skillbox.javaDev.lesson6_5.Loader" />
+      <module name="Zoo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdacbcc5-7f7a-4c1f-90e4-3db128b866b9" name="Default Changelist" comment="" />
+      <created>1582629697031</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582629697031</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582630221029">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="418" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582630221029" />
+    <state x="692" y="338" width="525" height="436" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582629982518">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="692" y="338" width="525" height="436" key="#com.intellij.ide.util.TreeClassChooserDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582629982518" />
+    <state x="697" y="408" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1582630385304">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="697" y="408" width="515" height="298" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.27.1920.1053@0.27.1920.1053" timestamp="1582630385304" />
+    <state x="737" y="299" width="424" height="521" key="FileChooserDialogImpl" timestamp="1582630170653">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="737" y="299" width="424" height="521" key="FileChooserDialogImpl/0.27.1920.1053@0.27.1920.1053" timestamp="1582630170653" />
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom" timestamp="1582630434149">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1582630434149" />
+    <state width="1874" height="275" key="GridCell.Tab.0.center" timestamp="1582630434149">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1582630434149" />
+    <state width="1874" height="275" key="GridCell.Tab.0.left" timestamp="1582630434149">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1582630434149" />
+    <state width="1874" height="275" key="GridCell.Tab.0.right" timestamp="1582630434149">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="275" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1582630434149" />
+    <state x="620" y="380" key="com.intellij.ide.util.TipDialog" timestamp="1582629717669">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="620" y="380" key="com.intellij.ide.util.TipDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1582629717669" />
+    <state x="281" y="143" width="1347" height="827" key="new project wizard" timestamp="1582630052979">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="281" y="143" width="1347" height="827" key="new project wizard/0.27.1920.1053@0.27.1920.1053" timestamp="1582630052979" />
+  </component>
+</project>
