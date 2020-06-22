@@ -21,7 +21,7 @@
           <text value="Фамилия:"/>
         </properties>
       </component>
-      <component id="a6b91" class="javax.swing.JTextField" default-binding="true">
+      <component id="a6b91" class="javax.swing.JTextField" binding="jTextSurname">
         <constraints/>
         <properties>
           <maximumSize width="5000" height="30"/>
@@ -38,7 +38,7 @@
           <text value="Имя:"/>
         </properties>
       </component>
-      <component id="82885" class="javax.swing.JTextField" default-binding="true">
+      <component id="82885" class="javax.swing.JTextField" binding="jTextName">
         <constraints/>
         <properties>
           <maximumSize width="5000" height="30"/>
@@ -55,7 +55,7 @@
           <text value="Отчество:"/>
         </properties>
       </component>
-      <component id="4be45" class="javax.swing.JTextField" default-binding="true">
+      <component id="4be45" class="javax.swing.JTextField" binding="jTextPatronymic">
         <constraints/>
         <properties>
           <maximumSize width="5000" height="30"/>
