@@ -5,7 +5,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyAdapter;
 import java.awt.event.KeyEvent;
-
+import static org.skillbox.javaDev.lesson8_6.TextControl.*;
 public class FullForm {
     private JPanel rootPanel;
     private JTextField textSurname;
@@ -40,6 +40,30 @@ public class FullForm {
             public void keyReleased(KeyEvent e) {
                 super.keyReleased(e);
                 if (e.getKeyCode() == KeyEvent.VK_ENTER && e.isControlDown()) onClickButton();
+            }
+        });
+        textSurname.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                if (!valideInput(PATTERN_SURNAME, textSurname.getText() + e.getKeyChar()))
+                    e.consume();
+            }
+        });
+        textName.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                if (!valideInput(PATTERN_NAME, textName.getText() + e.getKeyChar()))
+                    e.consume();
+            }
+        });
+        textPatronymic.addKeyListener(new KeyAdapter() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                super.keyTyped(e);
+                if (!valideInput(PATTERN_PATRONYMIC, textPatronymic.getText() + e.getKeyChar()))
+                    e.consume();
             }
         });
     }
