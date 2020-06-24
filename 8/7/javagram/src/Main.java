@@ -11,6 +11,8 @@ public class Main {
         dimensionMainForm.setSize(800, 600);
         mainFrame.setSize(dimensionMainForm);
 
+        mainFrame.setUndecorated(true);
+
         mainFrame.setLocationRelativeTo(null);
 
         mainFrame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
