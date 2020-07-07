@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="my.Project.Forms.FormMain2">
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="my.Project.Forms.FormMain">
   <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
     <constraints>
       <xy x="20" y="20" width="500" height="400"/>
@@ -10,26 +10,32 @@
       <grid id="cff06" binding="captionPanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="2">
         <constraints border-constraint="North"/>
         <properties>
-          <background color="-8090737"/>
-          <maximumSize width="32767" height="40"/>
-          <minimumSize width="10" height="40"/>
-          <preferredSize width="10" height="40"/>
+          <background color="-1644826"/>
+          <maximumSize width="32767" height="30"/>
+          <minimumSize width="10" height="30"/>
+          <preferredSize width="10" height="30"/>
         </properties>
         <border type="none"/>
         <children>
-          <component id="85cea" class="javax.swing.JButton" binding="buttonMinimisaded">
+          <component id="85cea" class="javax.swing.JButton" binding="buttonMinimized" custom-create="true">
             <constraints/>
             <properties>
-              <maximumSize width="30" height="30"/>
-              <minimumSize width="30" height="30"/>
-              <preferredSize width="30" height="30"/>
-              <text value="_"/>
+              <borderPainted value="false"/>
+              <maximumSize width="18" height="18"/>
+              <minimumSize width="18" height="18"/>
+              <preferredSize width="18" height="18"/>
+              <text value=""/>
             </properties>
           </component>
-          <component id="ffdfb" class="javax.swing.JButton" binding="buttonClose">
+          <component id="ffdfb" class="javax.swing.JButton" binding="buttonClose" custom-create="true">
             <constraints/>
             <properties>
-              <text value="Button"/>
+              <borderPainted value="false"/>
+              <maximumSize width="18" height="18"/>
+              <minimumSize width="18" height="18"/>
+              <opaque value="false"/>
+              <preferredSize width="18" height="18"/>
+              <text value=""/>
             </properties>
           </component>
         </children>
